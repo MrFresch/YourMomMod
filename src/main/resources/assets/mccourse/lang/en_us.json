@@ -1,0 +1,34 @@
+{
+  // basic your mom items
+  "item.mccourse.yourmom_ingot": "Yourmomium Ingot",
+  "block.mccourse.yourmom_block": "Yourmomium Block",
+  "block.mccourse.yourmom_ore": "Yourmomium Ore",
+  "item.mccourse.raw_yourmom": "Raw Yourmomium",
+
+  //custum creative tab
+  "itemGroup.courseTab": "Your Mom's Stuff",
+
+  //Food Items
+  "item.mccourse.slice_of_pizza": "Slice of Pizza",
+
+  // Tools
+  "item.mccourse.yourmom_shovel": "Your Mom's Shovel",
+  "item.mccourse.yourmom_axe": "Your Mom's Axe",
+  "item.mccourse.yourmom_pickaxe": "Your Mom's Pickaxe",
+  "item.mccourse.yourmom_hoe": "Your Mom's Hoe",
+  "item.mccourse.yourmom_sword": "Your Mom's Sword",
+
+  // Armor
+  "item.mccourse.yourmom_helmet": "Your Mom's Helmet",
+  "item.mccourse.yourmom_chestplate": "Your Mom's Chestplate",
+  "item.mccourse.yourmom_leggings": "Your Mom's Leggings",
+  "item.mccourse.yourmom_boots": "Your Mom's Boots",
+
+  // Weird Items (Stairs and Stuff)
+  "block.mccourse.yourmom_stairs": "Your Mom's Stairs",
+  "block.mccourse.yourmom_fence_gate": "Your Mom's Fence Gate",
+  "block.mccourse.yourmom_fence": "Your Mom's Fence",
+  "block.mccourse.yourmom_slab": "Your Mom's Slab",
+  "block.mccourse.yourmom_pressure_plate": "Your Mom's Pressure Plate",
+  "block.mccourse.yourmom_button": "Your Mom's Button"
+}

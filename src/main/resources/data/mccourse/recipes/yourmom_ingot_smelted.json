@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "mccourse:raw_yourmom"
+  },
+  "result": "mccourse:yourmom_ingot",
+  "experience": 0.3,
+  "cookingtime": 200
+}

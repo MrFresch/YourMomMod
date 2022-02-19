@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "x x",
+    "   "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "mccourse:yourmom_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "mccourse:yourmom_helmet",
+    "count": 1
+  }
+}

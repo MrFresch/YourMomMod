@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "zws",
+    "yyy",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:bread"
+    },
+    "y":
+    {
+      "item": "minecraft:beetroot_soup"
+    },
+    "z":
+    {
+      "item": "minecraft:carrot"
+    },
+    "w":
+    {
+      "item": "minecraft:cooked_porkchop"
+    },
+    "s":
+    {
+      "item": "minecraft:honey_bottle"
+    }
+  },
+  "result":
+  {
+    "item": "mccourse:slice_of_pizza",
+    "count": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "   ",
+    "yxy",
+    "yxy"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "mccourse:yourmom_ingot"
+    },
+    "y":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+  "result":
+  {
+    "item": "mccourse:yourmom_fence_gate"
+  }
+}

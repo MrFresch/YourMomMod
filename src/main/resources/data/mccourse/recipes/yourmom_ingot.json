@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "",
+  "ingredients":
+          [
+            {"item": "mccourse:yourmom_block"}
+          ],
+
+  "result":
+  {
+    "item": "mccourse:yourmom_ingot",
+    "count": 9
+  }
+}

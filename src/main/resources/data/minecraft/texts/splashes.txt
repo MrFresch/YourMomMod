@@ -1,0 +1,13 @@
+Dig straight down and find diamonds fast.
+Click Q in when looking at lava tool to upgrade to netherite.
+Use Iron golems to see how much damage you make.
+Holding a feather will make you fall slowly.
+Holding Magma Cream lets you swim in lava.
+Dig in the middle of a desert temple to land in water.
+You wont take fall damage if you fall on leaves.
+The best layer to mine diamonds is y = 20.
+Hug creepers to gain xp.
+If you wear full netherite lava can't hurt you.
+Sleep in the nether to despawn all the mobs around you.
+An iron golem will give you iron instead of attacking you when you hit it with an iron block.
+Use flint and steel on a tree to have it mined for you.

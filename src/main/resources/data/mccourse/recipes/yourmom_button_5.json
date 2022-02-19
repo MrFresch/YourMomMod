@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "   ",
+    " x ",
+    "   "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "mccourse:yourmom_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "mccourse:yourmom_button"
+  }
+}
