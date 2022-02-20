@@ -2,24 +2,19 @@
   "type": "minecraft:crafting_shaped",
   "pattern":
   [
-    "yy",
-    "xy",
-    "x "
+    "xxx",
+    "x x"
   ],
   "key":
   {
     "x":
-    {
-      "item": "minecraft:stick"
-    },
-    "y":
     {
       "item": "mccourse:yourmom_ingot"
     }
   },
   "result":
   {
-    "item": "mccourse:yourmom_axe",
+    "item": "mccourse:yourmom_helmet",
     "count": 1
   }
 }

@@ -46,6 +46,12 @@ public class ModBlocks {
     public static final RegistryObject<Block> YOURMOM_BUTTON =
             register("yourmom_button", () -> new StoneButtonBlock(AbstractBlock.Properties.create(Material.IRON)));
 
+    // Cropses
+
+    public static final RegistryObject<Block> TOMATO_CROP =
+            Registration.BLOCKS.register("tomato_crop",
+                    () -> new TomatoCrop(AbstractBlock.Properties.from(Blocks.WHEAT)));
+
     public static void register() {}
 
     private static <T extends Block>RegistryObject<T> register(String name, Supplier<T> block){

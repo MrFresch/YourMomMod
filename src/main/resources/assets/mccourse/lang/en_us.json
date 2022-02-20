@@ -10,6 +10,10 @@
 
   //Food Items
   "item.mccourse.slice_of_pizza": "Slice of Pizza",
+  "item.mccourse.tomato_seed": "Tomato Seeds",
+  "item.mccourse.tomato_soup": "Tomato Soup",
+  "block.mccourse.tomato_crop": "Tomato Crop",
+  "item.mccourse.tomato": "Tomato",
 
   // Tools
   "item.mccourse.yourmom_shovel": "Your Mom's Shovel",
@@ -30,5 +34,8 @@
   "block.mccourse.yourmom_fence": "Your Mom's Fence",
   "block.mccourse.yourmom_slab": "Your Mom's Slab",
   "block.mccourse.yourmom_pressure_plate": "Your Mom's Pressure Plate",
-  "block.mccourse.yourmom_button": "Your Mom's Button"
+  "block.mccourse.yourmom_button": "Your Mom's Button",
+
+  //Fluids
+  "item.mccourse.mud_bucket": "Mud Bucket"
 }

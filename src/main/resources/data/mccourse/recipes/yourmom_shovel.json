@@ -2,9 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "pattern":
   [
-    "yy",
-    "xy",
-    "x "
+    "y",
+    "x",
+    "x"
   ],
   "key":
   {
@@ -19,7 +19,7 @@
   },
   "result":
   {
-    "item": "mccourse:yourmom_axe",
+    "item": "mccourse:yourmom_shovel",
     "count": 1
   }
 }

@@ -3,8 +3,8 @@
   "pattern":
   [
     "yy",
-    "xy",
-    "x "
+    " x",
+    " x"
   ],
   "key":
   {
@@ -19,7 +19,7 @@
   },
   "result":
   {
-    "item": "mccourse:yourmom_axe",
+    "item": "mccourse:yourmom_hoe",
     "count": 1
   }
 }

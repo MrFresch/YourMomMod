@@ -2,24 +2,24 @@
   "type": "minecraft:crafting_shaped",
   "pattern":
   [
-    "yy",
-    "xy",
-    "x "
+    "yyy",
+    "yyy",
+    " x "
   ],
   "key":
   {
     "x":
     {
-      "item": "minecraft:stick"
+      "item": "minecraft:bowl"
     },
     "y":
     {
-      "item": "mccourse:yourmom_ingot"
+      "item": "mccourse:tomato"
     }
   },
   "result":
   {
-    "item": "mccourse:yourmom_axe",
+    "item": "mccourse:tomato_soup",
     "count": 1
   }
 }

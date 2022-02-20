@@ -1,6 +1,9 @@
 package com.selfindulgentnonsensemods.mccourse.item;
 
 import com.selfindulgentnonsensemods.mccourse.MCCourseMod;
+import com.selfindulgentnonsensemods.mccourse.block.ModBlocks;
+import com.selfindulgentnonsensemods.mccourse.block.ModFluids;
+import com.selfindulgentnonsensemods.mccourse.block.TomatoCrop;
 import com.selfindulgentnonsensemods.mccourse.util.Registration;
 import net.minecraft.client.renderer.texture.Stitcher;
 import net.minecraft.inventory.EquipmentSlotType;
@@ -30,6 +33,14 @@ public class ModItems {
      public static final RegistryObject<Item> SLICE_OF_PIZZA =
              Registration.ITEMS.register("slice_of_pizza",
                      () -> new Slice_of_pizza());
+
+     public static final RegistryObject<Item> TOMATO =
+             Registration.ITEMS.register("tomato",
+                     () -> new tomato());
+
+     public static final RegistryObject<Item> TOMATO_SOUP =
+             Registration.ITEMS.register("tomato_soup",
+                     () -> new tomato_soup());
 
      // Tools
 
@@ -85,10 +96,20 @@ public class ModItems {
                      () -> new ArmorItem(ModArmorMaterial.YOURMOM, EquipmentSlotType.FEET,
                              new Item.Properties().group(MCCourseMod.COURSE_TAB)));
 
-     public static void register() {
-     }
+     public static void register() {}
 
-     ;
+     // Cropses  // I'm funny I know
+
+     public static final RegistryObject<Item> TOMATO_SEED =
+             Registration.ITEMS.register("tomato_seed",
+                     () -> new BlockItem(ModBlocks.TOMATO_CROP.get(), new Item.Properties().group(MCCourseMod.COURSE_TAB)));
+
+     // Fluid Stuff
+
+     public static final RegistryObject<Item> MUD_BUCKET =
+             Registration.ITEMS.register("mud_bucket",
+                     () -> new BucketItem(ModFluids.MUD_FLUID::get,
+                             new Item.Properties().group(MCCourseMod.COURSE_TAB).maxStackSize(1)));
 
      public enum ModItemTier implements IItemTier {
           YOURMOM(2, 69, 6, 1, 25, Ingredient.fromStacks(new ItemStack(ModItems.YOURMOM_INGOT.get())));

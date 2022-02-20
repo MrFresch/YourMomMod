@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "",
+  "ingredients":
+          [
+            {"item": "mccourse:tomato"}
+          ],
+
+  "result":
+  {
+    "item": "mccourse:tomato_seed",
+    "count": 1
+  }
+}

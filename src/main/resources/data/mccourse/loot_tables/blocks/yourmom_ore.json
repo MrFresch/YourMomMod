@@ -1,11 +1,25 @@
 {
   "type:":  "minecraft:block",
-  "pools": [
+  "pools":
+  [
     {
       "rolls": 1,
-      "entries": [
+      "entries":
+      [
         {
           "type": "minecraft:item",
+          "functions":
+          [
+            {
+              "function": "minecraft:set_count",
+              "count":
+                {
+                  "min": 1.0,
+                  "max": 6.0,
+                  "type": "minecraft:uniform"
+                }
+            }
+          ],
           "name": "mccourse:raw_yourmom"
         }
       ]

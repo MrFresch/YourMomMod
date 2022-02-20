@@ -1,12 +1,15 @@
 package com.selfindulgentnonsensemods.mccourse;
 
 import com.selfindulgentnonsensemods.mccourse.block.ModBlocks;
+import com.selfindulgentnonsensemods.mccourse.block.ModFluids;
 import com.selfindulgentnonsensemods.mccourse.events.ModEvents;
 import com.selfindulgentnonsensemods.mccourse.item.ModItems;
 import com.selfindulgentnonsensemods.mccourse.util.Config;
 import com.selfindulgentnonsensemods.mccourse.util.Registration;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
@@ -51,6 +54,7 @@ public class MCCourseMod
         Registration.register();
         ModItems.register();
         ModBlocks.register();
+        ModFluids.register();
 
         MinecraftForge.EVENT_BUS.register(new ModEvents());
 
@@ -80,6 +84,7 @@ public class MCCourseMod
     private void doClientStuff(final FMLClientSetupEvent event) {
         // do something that can only be done on the client
         LOGGER.info("Got game settings {}", event.getMinecraftSupplier().get().gameSettings);
+        RenderTypeLookup.setRenderLayer(ModBlocks.TOMATO_CROP.get(), RenderType.getCutout());
     }
 
     private void enqueueIMC(final InterModEnqueueEvent event)
