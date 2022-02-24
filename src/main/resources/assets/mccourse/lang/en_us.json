@@ -37,5 +37,8 @@
   "block.mccourse.yourmom_button": "Your Mom's Button",
 
   //Fluids
-  "item.mccourse.mud_bucket": "Mud Bucket"
+  "item.mccourse.mud_bucket": "Mud Bucket",
+
+  //Other weird custom modeled / programmed stuff
+  "block.mccourse.totem_summoning_station": "Totem Summoning Station"
 }

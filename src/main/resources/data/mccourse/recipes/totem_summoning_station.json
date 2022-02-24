@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " y ",
+    "wzs",
+    " x "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:anvil"
+    },
+    "y":
+    {
+      "item": "minecraft:totem_of_undying"
+    },
+    "z":
+    {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    "w":
+    {
+      "item": "minecraft:prismarine_shard"
+    },
+    "s":
+    {
+      "item": "minecraft:phantom_membrane"
+    }
+  },
+  "result":
+  {
+    "item": "mccourse:totem_summoning_station",
+    "count": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "mccourse:block/totem_summoning_station", "y": 90 },
+    "facing=south": { "model": "mccourse:block/totem_summoning_station", "y": 270 },
+    "facing=west": { "model": "mccourse:block/totem_summoning_station", "y": 0 },
+    "facing=east": { "model": "mccourse:block/totem_summoning_station", "y": 180 }
+  }
+}

@@ -52,6 +52,12 @@ public class ModBlocks {
             Registration.BLOCKS.register("tomato_crop",
                     () -> new TomatoCrop(AbstractBlock.Properties.from(Blocks.WHEAT)));
 
+    // Specially modeled / special function blocks
+
+    public static final RegistryObject<Block> TOTEM_SUMMONING_STATION =
+            register("totem_summoning_station", () -> new TotemSummoningStation(AbstractBlock.Properties.create(Material.IRON)
+                    .hardnessAndResistance(6f).harvestTool(ToolType.PICKAXE)));
+
     public static void register() {}
 
     private static <T extends Block>RegistryObject<T> register(String name, Supplier<T> block){
