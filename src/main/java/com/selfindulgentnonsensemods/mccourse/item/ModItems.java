@@ -28,6 +28,12 @@ public class ModItems {
              Registration.ITEMS.register("raw_yourmom",
                      () -> new Item(new Item.Properties().group(MCCourseMod.COURSE_TAB)));
 
+     // Miscellaneous
+
+     public static final RegistryObject<Item> TOTEM_OF_NOTHINGNESS =
+             Registration.ITEMS.register("totem_of_nothingness",
+                     () -> new Item(new Item.Properties().group(MCCourseMod.COURSE_TAB)));
+
      // Food
 
      public static final RegistryObject<Item> SLICE_OF_PIZZA =

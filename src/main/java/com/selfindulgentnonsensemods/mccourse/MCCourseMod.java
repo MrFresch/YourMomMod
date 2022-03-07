@@ -2,11 +2,13 @@ package com.selfindulgentnonsensemods.mccourse;
 
 import com.selfindulgentnonsensemods.mccourse.block.ModBlocks;
 import com.selfindulgentnonsensemods.mccourse.block.ModFluids;
+import com.selfindulgentnonsensemods.mccourse.container.ModContainers;
 import com.selfindulgentnonsensemods.mccourse.events.ModEvents;
 import com.selfindulgentnonsensemods.mccourse.item.ModItems;
 import com.selfindulgentnonsensemods.mccourse.setup.ClientProxy;
 import com.selfindulgentnonsensemods.mccourse.setup.IProxy;
 import com.selfindulgentnonsensemods.mccourse.setup.ServerProxy;
+import com.selfindulgentnonsensemods.mccourse.tileentity.ModTileEntities;
 import com.selfindulgentnonsensemods.mccourse.util.Config;
 import com.selfindulgentnonsensemods.mccourse.util.Registration;
 import net.minecraft.block.Block;
@@ -91,6 +93,8 @@ public class MCCourseMod
         ModItems.register();
         ModBlocks.register();
         ModFluids.register();
+        ModTileEntities.register();
+        ModContainers.register();
 
         // registers mod events
         MinecraftForge.EVENT_BUS.register(new ModEvents());

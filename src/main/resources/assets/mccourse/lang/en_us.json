@@ -40,5 +40,8 @@
   "item.mccourse.mud_bucket": "Mud Bucket",
 
   //Other weird custom modeled / programmed stuff
-  "block.mccourse.totem_summoning_station": "Totem Summoning Station"
+  "block.mccourse.totem_summoning_station": "Totem Summoning Station",
+
+  //Miscellaneous
+  "item.mccourse.totem_of_nothingness": "Totem of Nothingness"
 }

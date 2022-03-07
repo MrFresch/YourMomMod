@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    " x "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "mccourse:totem_of_nothingness",
+    "count": 1
+  }
+}
