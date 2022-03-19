@@ -9,6 +9,7 @@ import net.minecraft.client.gui.screen.inventory.ContainerScreen;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.text.ITextComponent;
+import org.apache.logging.log4j.LogManager;
 
 public class TotemSummoningStationScreen extends ContainerScreen<TotemSummoningStationContainer>
 {
@@ -28,9 +29,12 @@ public class TotemSummoningStationScreen extends ContainerScreen<TotemSummoningS
         this.renderHoveredTooltip(matrixStack, mouseX, mouseY);
     }
 
+
     @Override
     protected void drawGuiContainerForegroundLayer(MatrixStack matrixStack, int mouseX, int mouseY) {
-        drawString(matrixStack, Minecraft.getInstance().fontRenderer,"Energy: " + container.getEnergyLevel(), 28, 10, 0xffffff);
+        LogManager.getLogger().debug("EL: " + container.getProgress());
+        drawString(matrixStack, Minecraft.getInstance().fontRenderer,"Progress: " +
+                container.getProgress(), 5, 5, 0xffffff);
     }
 
     @Override
@@ -41,6 +45,8 @@ public class TotemSummoningStationScreen extends ContainerScreen<TotemSummoningS
         int j = this.guiTop;
         this.blit(matrixStack, i, j, 0, 0, this.xSize, this.ySize);
 
-        this.blit(matrixStack, i + 13, j + 9, 176, 0, 11, 64 - container.getEnergyLevel());
+        this.blit(matrixStack, i + 0, j + 166, 44, 35, 0 + container.getProgress(), 16);
     }
 }
+
+// 0 + container.getProgress()

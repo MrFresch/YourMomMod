@@ -1,7 +1,6 @@
 package com.selfindulgentnonsensemods.mccourse.container;
 
 import com.selfindulgentnonsensemods.mccourse.block.ModBlocks;
-import com.selfindulgentnonsensemods.mccourse.block.TotemSummoningStation;
 import com.selfindulgentnonsensemods.mccourse.tileentity.TotemSummoningStationTile;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
@@ -36,9 +35,17 @@ public class TotemSummoningStationContainer extends Container
         if(tileEntity != null)
         {
             tileEntity.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY).ifPresent(h -> {
-                addSlot(new SlotItemHandler(h, 0, 30, 57));
-                addSlot(new SlotItemHandler(h, 1, 134, 15));
-                addSlot(new SlotItemHandler(h, 2, 134, 57));
+                addSlot(new SlotItemHandler(h, 0, 152, 35));
+                addSlot(new SlotItemHandler(h, 1, 8, 26));
+                addSlot(new SlotItemHandler(h, 2, 17, 44));
+                addSlot(new SlotItemHandler(h, 3, 26, 26));
+                addSlot(new SlotItemHandler(h, 4, 62, 17));
+                addSlot(new SlotItemHandler(h, 5, 80, 17));
+                addSlot(new SlotItemHandler(h, 6, 98, 17));
+                addSlot(new SlotItemHandler(h, 7, 62, 53));
+                addSlot(new SlotItemHandler(h, 8, 80, 53));
+                addSlot(new SlotItemHandler(h, 9, 98, 53));
+                //addSlot(new SlotItemHandler(h, 10, 116, 35));
             });
         }
         layoutPlayerInventorySlots(8, 84);
@@ -122,8 +129,8 @@ public class TotemSummoningStationContainer extends Container
     }
 
     @OnlyIn(Dist.CLIENT)
-    public int getEnergyLevel()
+    public int getProgress()
     {
-        return ((TotemSummoningStationTile) this.tileEntity).getEnergyLevel();
+        return ((TotemSummoningStationTile) this.tileEntity).getProgress();
     }
 }

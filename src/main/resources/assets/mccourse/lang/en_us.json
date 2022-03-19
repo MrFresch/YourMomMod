@@ -43,5 +43,8 @@
   "block.mccourse.totem_summoning_station": "Totem Summoning Station",
 
   //Miscellaneous
-  "item.mccourse.totem_of_nothingness": "Totem of Nothingness"
+  "item.mccourse.totem_of_nothingness": "Totem of Nothingness",
+
+  //Screens
+  "screen.mccourse.totem_summoning_station": "Totem Summoning Station"
 }
