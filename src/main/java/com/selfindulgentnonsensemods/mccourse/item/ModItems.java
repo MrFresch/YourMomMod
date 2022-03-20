@@ -32,7 +32,7 @@ public class ModItems {
 
      public static final RegistryObject<Item> TOTEM_OF_NOTHINGNESS =
              Registration.ITEMS.register("totem_of_nothingness",
-                     () -> new Item(new Item.Properties().group(MCCourseMod.COURSE_TAB)));
+                     () -> new Item(new Item.Properties().group(MCCourseMod.COURSE_TAB).maxStackSize(1)));
 
      // Food
 
@@ -58,7 +58,7 @@ public class ModItems {
 
      public static final RegistryObject<Item> YOURMOM_SWORD =
              Registration.ITEMS.register("yourmom_sword",
-                     () -> new SwordItem(ModItemTier.YOURMOM, 6, 1f,
+                     () -> new SwordItem(ModItemTier.YOURMOM, 3, 1f,
                              new Item.Properties()
                                      .defaultMaxDamage(150).group(MCCourseMod.COURSE_TAB)));
 
@@ -118,7 +118,7 @@ public class ModItems {
                              new Item.Properties().group(MCCourseMod.COURSE_TAB).maxStackSize(1)));
 
      public enum ModItemTier implements IItemTier {
-          YOURMOM(2, 69, 6, 1, 25, Ingredient.fromStacks(new ItemStack(ModItems.YOURMOM_INGOT.get())));
+          YOURMOM(2, 69, 8, 1, 25, Ingredient.fromStacks(new ItemStack(ModItems.YOURMOM_INGOT.get())));
 
           private final int harvestLevel;
           private final int maxUses;
